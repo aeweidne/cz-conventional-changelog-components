@@ -6,6 +6,9 @@ node_js:
   - '6'
 script:
   - 'npm run lint'
+deploy:
+  provider: npm
+  api_key: $NPM_TOKEN
 branches:
   only:
     - master
