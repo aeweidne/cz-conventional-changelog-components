@@ -51,7 +51,7 @@ module.exports = function (options) {
         }, {
           type: 'input',
           name: 'scope',
-          message: 'Denote the scope of this change ($location, $browser, $compile, etc.):\n'
+          message: 'Denote the scope of this change (component name if feat/fix):\n'
         }, {
           type: 'input',
           name: 'subject',
